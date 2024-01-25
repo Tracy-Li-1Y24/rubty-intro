@@ -7,3 +7,13 @@
 # Accessing data from the hash
 
 # More Complex Hashes
+
+my_profile = {
+    "name" => {"first"=> "Tracy", "last"=>"Li"}, 
+    "location"=> {"city"=>"Chicago", "state"=>"IL"},
+    "status"=>"busy"
+} # => is divide key and value
+puts my_profile
+# write my name 
+puts my_profile["name"]
+puts my_profile["location"]["city"]

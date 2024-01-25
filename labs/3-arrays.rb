@@ -15,3 +15,10 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_shopping_list = ["milk", "eggs","bacon"]
+ann_shopping_list = ["beer", "cookies", "apples"]
+shared_shopping_list = my_shopping_list + ann_shopping_list
+sorted_list = shared_shopping_list.sort # sort the list alphabetically
+uniq_list = sorted_list.uniq # get rid of repetitve items
+puts "Buy #{uniq_list[0]}"
